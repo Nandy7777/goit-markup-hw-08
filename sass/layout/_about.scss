@@ -1,0 +1,36 @@
+.about{
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+.about-title{
+    margin-bottom: 50px;
+}
+
+.about-list{
+    @extend %align-list;
+}
+
+.about-item:not(:last-child):not(:last-child) {
+    margin-right: 30px;
+}
+
+.about-wrap {
+    position: relative;
+}
+
+
+.about-descr {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px 81px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    text-align: center;
+}
