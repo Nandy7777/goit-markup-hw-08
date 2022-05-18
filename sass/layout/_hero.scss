@@ -1,25 +1,71 @@
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
     background-color: #2F303A;
+
+    @media screen and(min-width: 480px) {
+        width: 480px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 768px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+    @media screen and(min-width: 1200px) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    
+    // padding-top: 200px;
+    // padding-bottom: 200px;
 }
 
 .hero-tittle { 
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px; 
-    max-width: 696px;
-    text-align: center;
+    @media screen and(min-width: 480px) {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.61;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        max-width: 360px;
+    
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px; 
+        text-align: center;
+    }
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--primary-white-color);  
+    @media screen and(min-width: 768px){
+
+    }
+ 
+   
+    
+
+    
+
+    // margin-top: 0;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-bottom: 30px; 
+    // max-width: 696px;
+    // text-align: center;
+
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    // letter-spacing: 0.06em;
+    // text-transform: uppercase;
+    // color: var(--primary-white-color);  
 }
 
 .hero-btn{
@@ -33,8 +79,16 @@
 }
 
 .overlay{
-    min-width: 1600px;
-    height: 600px;
+    @media screen and(min-width: 480px){
+        min-width: 480px;
+        height: 400px;
+
+    }
+    
+
+
+    // min-width: 1600px;
+    // height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-image:linear-gradient(
