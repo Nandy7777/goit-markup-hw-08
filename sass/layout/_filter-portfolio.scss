@@ -14,8 +14,12 @@
     margin-bottom: 40px;
     justify-content: flex-start;
 
-    // margin-bottom: 34px;
-    // justify-content: center;
+    @media screen and (min-width: 1200px){
+        margin-bottom: 34px;
+        justify-content: center;
+    }
+
+    
 }
 
 // .filter-item:not(:last-child){

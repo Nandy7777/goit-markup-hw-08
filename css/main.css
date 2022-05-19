@@ -666,7 +666,7 @@ body {
   padding-top: 0;
   padding-bottom: 94px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .about {
     display: none;
   }
@@ -946,20 +946,12 @@ body {
   background-color: #2F303A;
 }
 
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer-first {
-  margin-right: 70px;
-}
-
 .footer-logo {
+  display: block;
+  width: 154px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -973,8 +965,16 @@ body {
   line-height: 1.71;
 }
 
+.footer-addr-wrap {
+  width: 232px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 .footer-addres {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footer-addr {
@@ -983,7 +983,7 @@ body {
 }
 
 .footer-item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .link-footer {
@@ -991,7 +991,11 @@ body {
 }
 
 .connect {
-  margin-right: 93px;
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .connect-title {
@@ -1050,6 +1054,12 @@ body {
   margin-left: 10px;
 }
 
+.submit-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .submit-title {
   font-weight: 700;
   text-transform: uppercase;
@@ -1057,14 +1067,8 @@ body {
   margin-bottom: 20px;
 }
 
-.submit-fild {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .submit-input {
-  width: 358px;
+  width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1075,7 +1079,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
-  margin-right: 12px;
+  margin-bottom: 20px;
   color: var(--primary-white-color);
 }
 .submit-input::-webkit-input-placeholder {
@@ -1102,6 +1106,9 @@ body {
   border: none;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .submit-icon-send {
@@ -1132,6 +1139,14 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+@media screen and (min-width: 1200px) {
+  .filter-list {
+    margin-bottom: 34px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .filter-item {
