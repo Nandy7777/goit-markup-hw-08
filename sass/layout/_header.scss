@@ -4,14 +4,31 @@
     .container{
         @extend %align-list;
     }
+}
 
-    padding-top: 16px;
-    padding-bottom: 16px;
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+}
 
-    @media screen and (min-width: 768px) {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+.mobil-menu-btn{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.mobil-menu-btn .icon-close {
+    display: none;
+}
+.mobil-menu-btn.is-open .icon-close {
+    display: block;
+}
+.mobil-menu-btn.is-open .icon-mobmenu {
+    display: none;
 }
 
 .header-logo{
