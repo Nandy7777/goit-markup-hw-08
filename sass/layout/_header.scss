@@ -13,24 +13,6 @@
     min-height: 60px;
 }
 
-.mobil-menu-btn{
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-}
-
-.mobil-menu-btn .icon-close {
-    display: none;
-}
-.mobil-menu-btn.is-open .icon-close {
-    display: block;
-}
-.mobil-menu-btn.is-open .icon-mobmenu {
-    display: none;
-}
-
 .header-logo{
     @media screen and (min-width: 768px) {
         margin-right: 88px;
@@ -68,8 +50,6 @@
     letter-spacing: 0.02em;
     color: inherit;
 }
-
-
 
 .header-connect{
     @media screen and (max-width: 767px) {

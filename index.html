@@ -16,14 +16,14 @@
     <header class="header">
         <div class="container header-container">
                 <a href="" class="logo header-logo">Web<span class="header-logo-part">Studio</span></a>
-                <div class="mobil-menu">
-                    <button type="button" class="mobil-menu-btn is-open">
-                        <svg width="40" height="40" aria-label="Переключатель мобильного меню">
-                            <use class="icon-close" href="./images/symbol-defs.svg#icon-close_40px"></use>
-                            <use class="icon-mobmenu" href="./images/symbol-defs.svg#icon-mobmenu_open"></use>
-                        </svg>
-                    </button>
-                </div>
+                <button 
+                    type="button" 
+                    class="mobil-menu-btn menu-btn-open" 
+                    aria-expanded="false">
+                    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                        <use class="icon-mobmenu" href="./images/symbol-defs.svg#icon-mobmenu_open"></use>
+                    </svg>
+                </button>
             <nav class="header-navigation">
                 <ul class="header-list list">
                     <li class="header-item"><a href="./index.html" class="header-link current link header-link-now">Студия</a></li>
@@ -43,6 +43,67 @@
                         </svg>+38 096 111 11 11</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="mobil-menu is-hidden">
+            <div class="container">
+                <div class="mob-menu-top">
+                    <button 
+                        type="button" 
+                        class="mobil-menu-btn menu-btn-close" 
+                        aria-expanded="false">
+                        <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                            <use class="icon-close" href="./images/symbol-defs.svg#icon-close_40px"></use>
+                        </svg>
+                    </button>
+                    <nav class="mobil-menu-navigation">
+                        <ul class="mobil-menu-list list">
+                            <li class="mobil-menu-item"><a href="./index.html" class="mobil-menu-link link current">Студия</a></li>
+                            <li class="mobil-menu-item"><a href="./portfolio.html" class="mobil-menu-link link">Портфолио</a></li>
+                            <li class="mobil-menu-item"><a href="" class="mobil-menu-link link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mob-menu-bottom">
+                <div class="mobil-menu-connect">
+                    <ul class="mobil-menu-list list">
+                        <li class="mobil-menu-item-connect">
+                            <a href="tel:+380961111111" class="mobil-menu-link-cont mobil-menu-tel link">+38 096 111 11 11</a>
+                        </li>
+                        <li class="mobil-menu-item-connect">
+                            <a href="mailto:info@devstudio.com" class="mobil-menu-link-cont mobil-menu-mail link">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mob-menu-soc">
+                    <ul class="mobil-menu-soc-list list">
+                        <li class="mob-soc-item"><a href="" 
+                            class="mob-soc-link link"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            >Instagram</a>
+                        </li>
+                        <li class="mob-soc-item"><a href="" 
+                            class="mob-soc-link link"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            >Twitter</a>
+                        </li>
+                        <li class="mob-soc-item"><a href="" 
+                            class="mob-soc-link link"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            >Facebook</a>
+                        </li>
+                        <li class="mob-soc-item"><a href="" 
+                            class="mob-soc-link link"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            >LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
             </div>
         </div>
     </header> 
