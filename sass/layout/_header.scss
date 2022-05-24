@@ -17,7 +17,6 @@
     @media screen and (min-width: 768px) {
         margin-right: 88px;
     }
-
     @media screen and (min-width: 1200px) {
         margin-right: 93px;
     }
@@ -87,13 +86,11 @@
         letter-spacing: 0.02em;
         color: var(--sercondary-text-color);
     }
-
     @media screen and (min-width: 1200px) {
         padding-top: 32px;
         padding-bottom: 32px;
         font-size: 14px;
         line-height: 1.14;
-    
         display: flex;
         align-items: center;
         justify-content: center;
